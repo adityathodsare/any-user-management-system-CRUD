@@ -1,77 +1,36 @@
+# Create a README.md file with the given content
+
+readme_content = """\
 # any-user-management-system-CRUD
 
-User Management System
+## User Management System
 
-Overview
+### Overview
 
-The User Management System is a simple CRUD (Create, Read, Update, Delete) API built with Spring Boot. This project can be used as a submodule in any major project requiring user management functionalities.
+The User Management System is a simple **CRUD (Create, Read, Update, Delete) API** built with **Spring Boot**. This project can be used as a submodule in any major project requiring user management functionalities.
 
-Features
+### Features
 
-Create a new user
+- Create a new user
+- Retrieve all users
+- Retrieve a user by ID
+- Update an existing user
+- Delete a user
 
-Retrieve all users
+### Technologies Used
 
-Retrieve a user by ID
+- **Java 17+**
+- **Spring Boot**
+- **Spring Data JPA**
+- **MySQL** (configurable database)
 
-Update an existing user
+### API Endpoints
 
-Delete a user
+| Method | Endpoint            | Description              |
+|--------|---------------------|--------------------------|
+| POST   | `/user/save`        | Creates a new user       |
+| GET    | `/user/getusers`    | Retrieves all users      |
+| GET    | `/user/{id}`        | Retrieves a user by ID   |
+| PUT    | `/user/update/{id}` | Updates user details     |
+| DELETE | `/user/delete/{id}` | Deletes a user by ID     |
 
-Technologies Used
-
-Java 17+
-
-Spring Boot
-
-Spring Data JPA
-
-MySQL (configurable database)
-
-API Endpoints
-
-Method
-
-Endpoint
-
-Description
-
-POST
-
-/user/save
-
-Creates a new user
-
-GET
-
-/user/getusers
-
-Retrieves all users
-
-GET
-
-/user/{id}
-
-Retrieves a user by ID
-
-PUT
-
-/user/update/{id}
-
-Updates user details
-
-DELETE
-
-/user/delete/{id}
-
-Deletes a user by ID
-
-Setup & Installation
-
-Prerequisites
-
-Java 17+
-
-Maven
-
-MySQL
