@@ -1,6 +1,5 @@
-# Create a README.md file with the given content
 
-readme_content = """\
+
 # any-user-management-system-CRUD
 
 ## User Management System
