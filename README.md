@@ -18,7 +18,7 @@ The User Management System is a simple **CRUD (Create, Read, Update, Delete) API
 
 ### Technologies Used
 
-- **Java 17+**
+- **Java 21**
 - **Spring Boot**
 - **Spring Data JPA**
 - **MySQL** (configurable database)
